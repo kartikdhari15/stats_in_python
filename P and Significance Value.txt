@@ -1,0 +1,19 @@
+How do you know if a p-value is statistically significant?
+
+A p-value, or probability value, is a number describing how likely it is that your data would have occurred by random chance (i.e. that the null hypothesis is true).
+
+The level of statistical significance is often expressed as a p-value between 0 and 1. 
+The smaller the p-value, the stronger the evidence that you should reject the null hypothesis.
+
+->A p-value less than 0.05 (typically ≤ 0.05) is statistically significant. 
+It indicates strong evidence against the null hypothesis, as there is less than a 5% probability the null is correct (and the results are random). 
+Therefore, we reject the null hypothesis, and accept the alternative hypothesis.
+However, if the p-value is below your threshold of significance (typically p < 0.05), 
+you can reject the null hypothesis, but this does not mean that there is a 95% probability that the alternative hypothesis is true. 
+The p-value is conditional upon the null hypothesis being true, but is unrelated to the truth or falsity of the alternative hypothesis.
+
+->A p-value higher than 0.05 (> 0.05) is not statistically significant and indicates strong evidence for the null hypothesis. 
+This means we retain the null hypothesis and reject the alternative hypothesis. 
+
+You should note that you cannot accept the null hypothesis, we can only reject the null or fail to reject it.
+A statistically significant result cannot prove that a research hypothesis is correct (as this implies 100% certainty).
